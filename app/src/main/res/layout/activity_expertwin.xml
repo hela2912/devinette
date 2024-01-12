@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WinexpertActivity">
+    <ImageView
+        android:id="@+id/winImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/imageshappy"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-240dp" />
+    <TextView
+        android:id="@+id/winMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Congratulations! You guessed the number!"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/playAgainButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play Again"
+        android:layout_below="@+id/winMessage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/menuButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:layout_below="@+id/playAgainButton"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <TextView
+        android:id="@+id/lastGuess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Guess: "
+        android:layout_below="@+id/menuButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+</RelativeLayout>
+

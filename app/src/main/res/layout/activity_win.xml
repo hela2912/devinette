@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WinActivity">
+    <ImageView
+        android:id="@+id/emojiImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/imageshappy"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="16dp" />
+    <TextView
+        android:id="@+id/winMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Congratulations! You guessed the number!"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="900dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/playAgainButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play Again"
+        android:layout_below="@+id/winMessage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/menuButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:layout_below="@+id/playAgainButton"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

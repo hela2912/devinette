@@ -1,0 +1,28 @@
+<!-- activity_menu.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <Button
+        android:id="@+id/easyLevelButton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Easy Level"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:background="#FF0000"
+        />
+
+    <Button
+        android:id="@+id/expertLevelButton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Expert Level"
+        android:layout_below="@+id/easyLevelButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="#008000"/>
+</RelativeLayout>
